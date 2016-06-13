@@ -1,5 +1,4 @@
+#!/usr/bin/env bash -e
 
 
-
-mkdir -p  ~/tools/gradle-2.13
-wget "https://services.gradle.org/distributions/gradle-2.13-bin.zip" -O - | unzip -d ~/tools/gradle-2.13
+brew install gradle
