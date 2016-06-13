@@ -1,7 +1,7 @@
 package hello;
 
-public class Greeter {
-  public String sayHello() {
-    return "Hello world!";
+public class Guicer {
+  public String makeGuice() {
+    return "Guicing";
   }
 }

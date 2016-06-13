@@ -1,8 +1,8 @@
 package hello;
 
-public class HelloWorld {
+public class DirectAccess{
   public static void main(String[] args) {
-    Greeter greeter = new Greeter();
-    System.out.println(greeter.sayHello());
+    Guicer greeter = new Guicer();
+    System.out.println(greeter.makeGuice());
   }
 }
